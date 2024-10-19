@@ -18,6 +18,11 @@
   font-size: 1.456rem;
 }
 
-.big-card__description > p{
+.big-card__description > p > a{
   color: grey;
+}
+
+.big-card__photo > img{
+  width: 100%;
+  min-width: 24.9rem;
 }
