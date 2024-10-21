@@ -1,0 +1,44 @@
+.container__small-card{
+  width: 31rem;
+  margin-bottom: 0.938rem;
+
+}
+
+.container__small-card-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card__photo > img {
+  width: 12.5rem;
+  height: 8rem;
+
+  min-width: 12.5rem;
+  min-height: 8rem;
+
+  margin-right: 1.25rem;
+}
+
+.small-card__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-card__title > h1{
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.small-card__title > h1 > a{
+  color: white;
+  opacity: 90%;
+}
+
+.container__small-card__content{
+  margin-top: 0.625rem;
+}
+
+.container__small-card__content > hr{
+  border-color: dimgrey;
+  opacity: 20%;
+}

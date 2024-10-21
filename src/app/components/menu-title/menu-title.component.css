@@ -1,5 +1,7 @@
 .container__menu-title{
   color: white;
+  opacity: 95%;
+
 }
 
 .container__menu-title > h1{
@@ -11,9 +13,17 @@
 
   display: flex;
   justify-content: center;
+
+
 }
 
 .container__menu-title > hr{
   margin-top: 1.25rem;
   margin-bottom: 0.313rem;
+
+  margin-left: 30rem;
+  margin-right: 30rem;
+
+  border-color: dimgrey;
+  opacity: 25%;
 }

@@ -1,10 +1,9 @@
 .container__big-card{
-  border: 1px solid white;
-  width: 25rem;
+  width: 26rem;
   height: 31.25rem;
 
   margin-left: 1.25rem;
-  margin-right: 1.25rem;
+  margin-right: 3rem;
 
   display: flex;
   flex-direction: column;
@@ -12,6 +11,7 @@
 }
 
 .big-card__title > h1{
+  opacity: 90%;
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
 
@@ -25,4 +25,6 @@
 .big-card__photo > img{
   width: 100%;
   min-width: 24.9rem;
+
+  height: 100%;
 }
