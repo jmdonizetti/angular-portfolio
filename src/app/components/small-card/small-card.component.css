@@ -26,8 +26,8 @@
 }
 
 .small-card__title > h1{
-  font-size: 1.2rem;
-  text-align: justify;
+  font-size: 1.1rem;
+  text-align: start;
 }
 .small-card__title > h1 > a{
   color: white;
