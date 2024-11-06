@@ -6,15 +6,21 @@
 
 .container__menu-title > h1{
   margin-top: 0.938rem;
-  margin-bottom: 0.938rem;
+  margin-bottom: 0.7rem;
 
   font-size: 8.438rem;
   font-family: 'segoe UI';
 
   display: flex;
   justify-content: center;
+}
 
+.container__menu-title > p{
+  font-size: 1.3rem;
+  font-family: 'segoe UI';
 
+  display: flex;
+  justify-content: center;
 }
 
 .container__menu-title > hr{

@@ -22,7 +22,7 @@
   color: grey;
 }
 
-.big-card__photo > img{
+.big-card__photo > a > img{
   width: 100%;
   min-width: 24.9rem;
 
