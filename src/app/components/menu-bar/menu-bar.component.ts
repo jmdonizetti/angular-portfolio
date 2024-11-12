@@ -6,7 +6,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   templateUrl: './menu-bar.component.html',
-  styleUrl: './menu-bar.component.css'
+  styleUrls: ['./menu-bar.component.css', './menu-bar.animacao.component.css']
 })
 export class MenuBarComponent {
   @Input()

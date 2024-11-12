@@ -1,9 +1,17 @@
 .container__menu-bar > ul{
   display: flex;
   flex-direction: row;
+
+  margin-top: 0.25rem;
 }
 
 .container__menu-bar > ul > li{
   margin-right: 1.25rem;
   list-style: none;
+}
+
+img{
+  width: 1.3rem;
+
+  margin-right: 0.40rem;
 }
