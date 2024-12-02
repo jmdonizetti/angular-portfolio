@@ -2,6 +2,7 @@
   width: 31rem;
   margin-bottom: 0.938rem;
 
+  overflow: hidden;
 }
 
 .container__small-card-content{
@@ -17,6 +18,15 @@
   min-height: 8rem;
 
   margin-right: 1.25rem;
+
+  transition: .5s ease;
+  transition: transform .5s ease;
+}
+
+.small-card__photo:hover > a > img{
+  transform: scale(1.05);
+  transition: .5s ease;
+
 }
 
 .small-card__title{

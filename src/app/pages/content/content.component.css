@@ -12,19 +12,111 @@
 
 .content__cover > img {
   border: 0.305rem solid grey;
-  border-radius: 0.320rem;
+  border-radius: 50%;
 
-  width: 25.25rem;
-  min-width: 25.25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  width: 100%;
+  min-width: 100%;
   height: 19.75rem;
 }
 
+.content__title > hr{
+  opacity: 40%;
+
+}
+
 .content__description{
-  margin-top: 0.938rem;
+  line-height: 1.50rem;
+
+  border: white;
+  border-radius: 1rem;
+
+  box-shadow: 4px 4px 10px 0px white;
+
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+  padding: 0.75rem 0.75rem;
+
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .content__description > p{
-  margin-top: 1.25rem;
   margin-bottom: 0.5rem;
-  color: grey;
+  color: lightgray;
+
+  display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CSS UI */
+
+
+
+
+
+
+
+
+
+
+
+/* Button */
+/* From Uiverse.io by satyamchaudharydev */
+/* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  --border-right: 3px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #37FF8B;
+  --fs-size: 1.25rem;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
 }
